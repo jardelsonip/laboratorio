@@ -11,17 +11,62 @@
         font-family: Arial, Helvetica, sans-serif;
       }
       body {
-      padding: 30px;  
+        padding: 30px;
       }
       .infospessoais {
         display: flex;
         align-items: center;
+        column-gap: 30px;
       }
       .infospessoais div:last-child {
         padding-left: 15px;
       }
       h2 {
+        color: rgba(0, 0, 0, 0.5);
         margin-top: 30px;
+        border-left: 1px solid rgba(0, 0, 0, 0.5);
+        padding-left: 15px;
+      }
+      table {
+        border: 1px solid silver;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+      td {
+        border: 1px solid silver;
+        padding: 10px;
+      }
+      h3,
+      h4,
+      h5 {
+        margin-top: 15px;
+      }
+      p {
+        margin-top: 10px;
+        line-height: 25px;
+      }
+      img {
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+      }
+      ul {
+        margin-left: 20px;
+        margin-top: 15px;
+      }
+      li:not(:last-child) {
+        margin-bottom: 5px;
+      }
+      h1 {
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 15px;
+      }
+      h5 {
+        font-style: italic;
+        font-weight: 400;
+      }
+      a {
+        color: rgba(0, 0, 0, 0.75);
+        text-decoration: none;
       }
     </style>
   </head>
@@ -41,67 +86,59 @@
     </div>
     <div>
       <h2>Sobre Mim</h2>
-      <br />
-      Sou um analista de sistemas com experiência em levantamento de requisitos,
-      modelagem de processos e desenvolvimento de soluções tecnológicas
-      alinhadas às necessidades organizacionais. Tenho sólidos conhecimentos em
-      [tecnologias, linguagens de programação ou ferramentas específicas, como
-      SQL, UML, Python, ERP, etc.], além de habilidades em análise de dados e
-      gestão de projetos. Meu objetivo é otimizar processos e entregar sistemas
-      que promovam eficiência e resultados estratégicos. Possuo perfil
-      analítico, capacidade de comunicação e trabalho em equipe, além de ser
-      motivado pela resolução de problemas e melhoria contínua. Estou sempre em
-      busca de desafios que me permitam agregar valor à empresa, utilizando
-      tecnologia para transformar ideias em soluções.
+      <p>
+        Sou um analista de sistemas com experiência em levantamento de
+        requisitos, modelagem de processos e desenvolvimento de soluções
+        tecnológicas alinhadas às necessidades organizacionais. Tenho sólidos
+        conhecimentos em [tecnologias, linguagens de programação ou ferramentas
+        específicas, como SQL, UML, Python, ERP, etc.], além de habilidades em
+        análise de dados e gestão de projetos. Meu objetivo é otimizar processos
+        e entregar sistemas que promovam eficiência e resultados estratégicos.
+        Possuo perfil analítico, capacidade de comunicação e trabalho em equipe,
+        além de ser motivado pela resolução de problemas e melhoria contínua.
+        Estou sempre em busca de desafios que me permitam agregar valor à
+        empresa, utilizando tecnologia para transformar ideias em soluções.
+      </p>
     </div>
     <div>
       <h2>Experiência Profissional</h2>
-      01/01/2020 - 18/12/2024
-      <br />
-      Amendola & Amendola
-      <br />
-      Analista de sistema
-      <br />
-      Realizei o levantamento de requisitos e documentei processos para otimizar
-      o desenvolvimento de sistemas.
-    </div>
-    <div>
-      01/01/2015 - 10/09/2015
-      <br />
-      Tel Telecom
-      <br />
-      Auxiliar Adm 3
-      <br />
-      Desenvolvimento e atualização de relatórios.
+      <h3>Amendola & Amendola</h3>
+      <h4>Analista de sistema</h4>
+      <h5>01/01/2020 - 18/12/2024</h5>
+      <p>
+        Realizei o levantamento de requisitos e documentei processos para
+        otimizar o desenvolvimento de sistemas.
+      </p>
+      <h3>Tel Telecom</h3>
+      <h4>Auxiliar Adm 3</h4>
+      <h5>01/01/2015 - 10/09/2015</h5>
+      <p>Desenvolvimento e atualização de relatórios.</p>
     </div>
     <div>
       <h2>Educação e Formação</h2>
-      01/01/2015 - 31/12/2015
-      <br />
-      SENAC
-      <br />
-      TURISMO RECEPTIVO
-      <br />
-      O curso de Turismo forma profissionais capacitados para planejar,
-      organizar e gerenciar atividades relacionadas ao setor turístico, como
-      viagens, eventos, hotelaria e desenvolvimento de destinos. O currículo
-      combina disciplinas de gestão, cultura, geografia, marketing e
-      sustentabilidade, preparando o aluno para atuar em um mercado dinâmico e
-      promissor, focado na experiência do viajante e no desenvolvimento
-      econômico e cultural.
-      <br />
-      10/01/2016 - 31/12/2016
-      <br />
-      OBJETIVO
-      <br />
-      TECNICO EM HARDWARE
-      <br />
-      O curso técnico em Hardware capacita profissionais para instalar,
-      configurar, realizar manutenção e diagnosticar problemas em equipamentos
-      de informática. O currículo abrange conhecimentos sobre montagem de
-      computadores, redes, eletrônica básica, sistemas operacionais e suporte
-      técnico, preparando o aluno para atuar no setor de tecnologia em ambientes
-      corporativos, assistência técnica ou como empreendedor.
+      <h3>SENAC</h3>
+      <h4>TURISMO RECEPTIVO</h4>
+      <h5>01/01/2015 - 31/12/2015</h5>
+      <p>
+        O curso de Turismo forma profissionais capacitados para planejar,
+        organizar e gerenciar atividades relacionadas ao setor turístico, como
+        viagens, eventos, hotelaria e desenvolvimento de destinos. O currículo
+        combina disciplinas de gestão, cultura, geografia, marketing e
+        sustentabilidade, preparando o aluno para atuar em um mercado dinâmico e
+        promissor, focado na experiência do viajante e no desenvolvimento
+        econômico e cultural.
+      </p>
+      <h5>10/01/2016 - 31/12/2016</h5>
+      <h3>OBJETIVO</h3>
+      <h4>TECNICO EM HARDWARE</h4>
+      <p>
+        O curso técnico em Hardware capacita profissionais para instalar,
+        configurar, realizar manutenção e diagnosticar problemas em equipamentos
+        de informática. O currículo abrange conhecimentos sobre montagem de
+        computadores, redes, eletrônica básica, sistemas operacionais e suporte
+        técnico, preparando o aluno para atuar no setor de tecnologia em
+        ambientes corporativos, assistência técnica ou como empreendedor.
+      </p>
     </div>
     <div>
       <h2>Competencias Digitais</h2>
@@ -133,7 +170,7 @@
     </div>
     <div>
       <h2>Pretensão Salarial</h2>
-      Aceito Propostas
+      <p>Aceito Propostas</p>
     </div>
   </body>
 </html>
